@@ -1,0 +1,13 @@
+astropy
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+torch
+pyarrow
+fastparquet
+tqdm
+fastapi
+uvicorn
+pydantic

@@ -1,0 +1,32 @@
+# Python environments
+venv/
+venv310/
+__pycache__/
+*.pyc
+
+# Datasets and heavy files (DO NOT UPLOAD 100GB PARQUETS TO GITHUB)
+datasets/processed/*.parquet
+datasets/raw/
+*.csv
+!datasets/processed/demo_stream.csv
+
+# Model Weights
+models/*.pth
+!models/hel1os_lstm_model.pth
+!models/solexs_lstm_model.pth
+
+# Frontend dependencies
+frontend/node_modules/
+frontend/dist/
+.env
+
+# IDE, cache, and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+.pytest_cache/
+.ipynb_checkpoints/
+.gemini/
+.agents/
